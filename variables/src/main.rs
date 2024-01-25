@@ -1,5 +1,8 @@
 
 fn main() {
+
+
+    // add some comments.
     println!("---Learn mut variables---");
     let x = 10;
     println!("The value of x is {x}");
