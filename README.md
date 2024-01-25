@@ -1,2 +1,2 @@
 # learn-rust
-Learning rust in windows
+Learning rust in windows and linux.
