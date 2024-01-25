@@ -1,1 +1,1 @@
-D:\workbench\learn-rust\branches\target\debug\branches.exe: D:\workbench\learn-rust\branches\src\main.rs
+/home/ell/workbench/rust/learn-rust/branches/target/debug/branches: /home/ell/workbench/rust/learn-rust/branches/src/main.rs
