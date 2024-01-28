@@ -5,11 +5,16 @@ fn main() {
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
+    let mut demo = String::from("Hello world");
+    println!("{}", demo);
+    
+
     loop {
         println!("Please input your number.");
 
         let mut guess = String::new();
-
+        let mut _gg = String::from("Hello");
+        
         io::stdin()
             .read_line(&mut guess)
             .expect("Failed to read the line");

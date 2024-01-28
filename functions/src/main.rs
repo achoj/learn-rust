@@ -7,7 +7,7 @@ fn another_funtion() {
 fn print_labeled_(value: u32, unit_label: char) {
    println!("The measurement is : {value}{unit_label}"); 
 }
-
+// Tes
 // rust中函数不显示return,通过表达式返回值来返回，因此不加分号
 // 因为加了分号就是语句而不是表达式了，如果没有表达式返回语句
 // 默认返回().
@@ -22,4 +22,5 @@ fn main() {
 
     let y = return_func();
     println!("{y}");
+    println!("");
 }

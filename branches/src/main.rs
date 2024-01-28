@@ -33,6 +33,7 @@ fn main() {
         loop {
             println!("entering new loop.");
             if remain == 0 {
+                println!("Hello world");
                 break;
             }
             if count == 2 {
@@ -42,7 +43,6 @@ fn main() {
         }
         count += 1;
     }
-
 
     let a = [1,2,3,4,5,6];
     // more safe and quick than while.

@@ -1,7 +1,5 @@
 
 fn main() {
-
-
     // add some comments.
     println!("---Learn mut variables---");
     let x = 10;
