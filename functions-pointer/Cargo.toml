@@ -1,5 +1,5 @@
 [package]
-name = "message-passing"
+name = "functions-pointer"
 version = "0.1.0"
 edition = "2021"
 

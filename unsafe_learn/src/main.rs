@@ -11,10 +11,12 @@ unsafe fn print_unsafe_pointer(i: *mut i32) {
 fn main() {
     let mut num = 5;
 
-    let r1 = &num as *const i32;
+    let r1 = &mut num as *mut i32;
     let r2 = &mut num as *mut i32;
-
+    let r3 = &mut num as *mut i32;
     unsafe {
         print_unsafe_pointer(r2);
+        print_unsafe_pointer(r1);
+        print_unsafe_pointer(r3);
     }
 }

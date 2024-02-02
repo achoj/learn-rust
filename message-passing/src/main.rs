@@ -3,10 +3,10 @@
 
 // mutex => mutual exclusion.
 
-use std::sync::{mpsc, Mutex, Arc};
+use std::sync::{/*mpsc,*/ Mutex, Arc};
 use std::thread;
-use std::time::Duration;
-use std::rc::Rc;
+// use std::time::Duration;
+// use std::rc::Rc;
 
 fn main() {
     // transmitter & receiver.
